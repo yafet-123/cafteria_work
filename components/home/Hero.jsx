@@ -18,7 +18,7 @@ const Hero = ({title , description, style, heroImage}) => {
             <div className="w-full h-full lg:h-[15rem] relative mb-5 rounded-2xl overflow-hidden shadow-lg py-5 lg:py-0">
               <Image
                 className=""
-                alt="why choose us image"
+                alt="Hero image"
                 src={heroImage[0].image.src}
                 layout="fill"
                 objectFit="cover"
@@ -28,7 +28,7 @@ const Hero = ({title , description, style, heroImage}) => {
             <div className="w-full h-full lg:h-[15rem] relative mb-5 rounded-2xl overflow-hidden shadow-lg py-5 lg:py-0">
               <Image
                 className=""
-                alt="why choose us image"
+                alt="Hero image"
                 src={heroImage[1].image.src}
                 layout="fill"
                 objectFit="cover"
@@ -40,7 +40,7 @@ const Hero = ({title , description, style, heroImage}) => {
             <div className="hidden lg:flex w-full h-[15rem] relative mb-5 rounded-2xl overflow-hidden shadow-lg py-5">
               <Image
                 className=""
-                alt="why choose us image"
+                alt="Hero image"
                 src={heroImage[2].image.src}
                 layout="fill"
                 objectFit="cover"
@@ -49,7 +49,7 @@ const Hero = ({title , description, style, heroImage}) => {
             <div className="w-full h-[25rem] lg:h-[15rem] relative mb-5 rounded-2xl overflow-hidden shadow-lg py-5">
               <Image
                 className=""
-                alt="why choose us image"
+                alt="Hero image"
                 src={heroImage[3].image.src}
                 layout="fill"
                 objectFit="cover"

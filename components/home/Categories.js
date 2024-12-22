@@ -6,6 +6,7 @@ export function Categories ({Categories}) {
     <section className="grid lg:grid-cols-3 grid-cols-1 gap-5 px-2 lg:px-10 py-10">
       { Categories.map((Category,index)=>(
         <div 
+          key={index}
           className={`relative flex flex-col ${
               Category.id % 2 == 1 ? "bg-[#11665b] text-white" : "bg-[#E6E6E6]"
           }`}
@@ -13,7 +14,7 @@ export function Categories ({Categories}) {
           <div>
             <Image
               src={Category.imagePath.src}
-              alt={Category.categoryName}
+              alt="Category of cafteria Menu"
               priority
               className="md:w-[500px] md:h-[400px]"
             />
