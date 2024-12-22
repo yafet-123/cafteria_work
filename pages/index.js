@@ -1,7 +1,7 @@
 import React from 'react'
 import { MainHeader } from '../components/common/MainHeader';
-import Hero from '../components/Home/Hero';
-import {Categories} from '../components/Home/Categories';
+import Hero from '../components/home/Hero';
+import {Categories} from '../components/home/Categories';
 
 import { getAllCategory } from "../data/menu";
 
