@@ -11,12 +11,12 @@ export function Categories ({Categories}) {
               Category.id % 2 == 1 ? "bg-[#11665b] text-white" : "bg-[#E6E6E6]"
           }`}
         >
-          <div>
+          <div className="relative w-full h-96">
             <Image
               src={Category.imagePath.src}
               alt="Category of cafteria Menu"
-              priority
-              className="md:w-[500px] md:h-[400px]"
+              layout="fill"
+              objectFit="cover"
             />
           </div>
           <div className="flex flex-col justify-around p-4">

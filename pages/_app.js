@@ -21,7 +21,6 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
         <CartProvider>
           <Navbar />
           <Component {...pageProps} />
-          <Footer />
         </CartProvider>
       </ThemeProvider>
     </SessionProvider>

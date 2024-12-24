@@ -2,8 +2,9 @@ import React from 'react'
 import { MainHeader } from '../components/common/MainHeader';
 import Hero from '../components/home/Hero';
 import {Categories} from '../components/home/Categories';
+import Item  from '../components/home/Item';
 
-import { getAllCategory } from "../data/menu";
+import { getAllCategory,getCategoryById, getAllItem, getItemById } from "../data/menu";
 
 import { useSession } from "next-auth/react";
 
@@ -48,7 +49,8 @@ export default function Home({all_category}) {
           style="lg:flex-row"
           heroImage={HeroImage}
         />
-        <Categories Categories={all_category} />
+        
+        <Item />
       </div>
     </React.Fragment>
   );
